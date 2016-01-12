@@ -1,0 +1,7 @@
+Steps to run:
+-------------
+0. ensure you have JDK8, Maven, mysql installed. Mysql user=root, password=root should be set, a database by name 'restservice' should be created.
+1. run 'mvn clean install' in restservice dir.
+2. run 'mvn clean jetty:run' in service dir.
+3. run client tests classes.
+
